@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "fullName": "Sonic the Hedgehog",
+    "profileImg": "https://decider.com/wp-content/uploads/2020/03/sonic-the-hedgehog.jpg",
+    "description": "My name is Sonic! I love to run fast and explore the world with my friends!"
+  },
+  {
+    "id": "2",
+    "fullName": "Link Mario",
+    "profileImg": "https://freepngimg.com/thumb/the_legend_of_zelda/115876-of-the-link-legend-zelda.png",
+    "description": "I have always been chosen to be the hero to save the world but sometimes I just want to relax. I like to take naps and eat great food my grandma makes me."
+  },
+  {
+    "id": "3",
+    "fullName": "Kakashi Hatake",
+    "profileImg": "https://static.wikia.nocookie.net/naruto-onepiece-fairytail/images/2/27/Kakashi_Hatake.png",
+    "description": "Though I may not show emotion as well as everyone else does not mean I do not care about my team. I believe that anyone who abandons a teammate is worse than scum. And I love reading love books."
+  }
+]

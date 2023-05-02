@@ -1,0 +1,114 @@
+button, a, input {
+  all: initial;
+}
+
+button {
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #999;
+  margin: 5px;
+  text-align: center;
+}
+
+button:active {
+  box-shadow: 5px 5px 5px #666;
+  transform: translateY(4px);
+}
+
+input, textarea {
+  border: solid 1px #999;
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+textarea {
+  padding: 15px 10px;
+}
+
+a {
+  cursor: pointer;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flx-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-btn {
+  background-color: blue;
+}
+
+.blue-btn:hover {
+  background-color: rgb(48, 48, 254);
+}
+
+.red-btn {
+  background-color: red;
+}
+
+.red-btn:hover {
+  background-color: rgb(255, 81, 81);
+}
+
+.users-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-slice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid black 1px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  width: 700px;
+}
+
+.user-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.user-info {
+  width: 200px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: black solid 1px;
+  border-radius: 5px;
+  width: 700px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px;
+}
